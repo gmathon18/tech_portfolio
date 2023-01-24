@@ -12,9 +12,15 @@
         <nav id="nav_bar" class=" nav_menu">
           <ul>
             <li>Home</li>
-            <li>About Me</li>
-            <li>Resume</li>
-            <li>Selected Works</li>
+            <a href="#about_me">
+              <li>About Me</li>
+            </a>
+            <a href="#resume">
+              <li>Resume</li>
+            </a>
+            <a href="#connect">
+              <li>Selected Works</li>
+            </a>
             <li>Contact Me</li>
           </ul>
         </nav>
@@ -32,7 +38,7 @@
           <img src="src/profile_pic.png" height=330px width=300px alt="profile_picture">
           <div class="column-text">
             <h1>HERE'S A LITTLE MORE ABOUT ME!</h1>
-            <p>Hi there! My name is Gurmail Mathon. I am a computer science graduate from the University of Pittsburgh. Initially, I was a chemistry student but ultimately shifted to computer science after taking a few programming classes and falling in love instantly. I truly believe that the age of technology has only begun and the possibilities are truly endless. I enjoy solving problems and look to manipulate data in order to configure analytical solutions in a methodical and surgical manner. My ultimate goal is to impact society and leave it a better place for the next generation. I love meeting new people and talking about tech. I thrive in teams as I always understand and play my role, but also enjoy independent work while listening to lofi r&b. I also enjoy basketball and love talking about sports.</p>
+            <p>Hi there! My name is Gurmail Mathon. I am a computer science graduate from the University of Pittsburgh. Initially, I was a chemistry student but after taking my first computer science course, I fell in love instantly and ultimately shifted to technology. I truly believe that the age of technology has only begun and the possibilities are truly endless. I enjoy solving problems and look to manipulate data in order to configure analytical solutions in a methodical and surgical manner. My ultimate goal is to impact society and leave it a better place for the next generation. I love meeting new people and talking about tech. I thrive in teams as I always understand and play my role, but also enjoy independent work while listening to lofi r&b. I also enjoy basketball and love talking about sports.</p>
             <p>If you would like to talk about technology, sports, or just want to connect, feel free to reach me through my contact page. I love connecting with new people as I believe that a sense of community can be very powerful and can be very impactful in our growth.
             </p>
           </div>
@@ -71,17 +77,37 @@
     <section class="projects">
       <h1>Projects</h1>
       <div class="selected-works">
-        <img src="src/412connect.png" height="350" width="270" alt="412connect">
-        <p>412 Web Application</p>
-        <p>Web application designed to connect University of Pittsburgh students with local black businesses</p>
-        <p>Tech Stack: Django, Python3, Pandas, HTML Jinja2, </p>
+        <div id="connect">
+          <a href="https://www.412connect.org/"><img src="src/412connect.png" height="350" width="270" alt="412connect"></a>
+          <a href="https://www.412connect.org/">
+            <h2>412 Web Application</h2>
+          </a>
+          <p>Web application designed to connect University of Pittsburgh students with local black businesses</p>
+          <p>Tech Stack: Django, Python3, Pandas, HTML Jinja2</p>
+        </div>
+        <div id="connect">
+          <a href="index.html"><img src="src/personal.png" height="350" width="270" alt="412connect"></a>
+          <a href="index.html">
+            <h2>Personal Portfolio </h2>
+          </a>
+          <p>An authentic personal portfolio illustrating personality, experience, and capabilites</p>
+          <p>Tech Stack: HTML5, CSS, JavaScript, VSCode Studio, Github </p>
+        </div>
+        <div id="connect">
+          <a href="https://github.com/gmathon18/cs1666-Team-monster_town/tree/main"><img src="src/game_dev.png" height="350" width="270" alt="412connect"></a>
+          <a href="https://github.com/gmathon18/cs1666-Team-monster_town/tree/main">
+            <h2>Rust Game Development</h2>
+          </a>
+          <p>Adaptation of Classic Capture and Fight RPG developed in Rust Library</p>
+          <p>Tech Stack: Rust Programming, SDL2, Cargo, VSCode, Github</p>
+        </div>
       </div>
     </section>
     <!--- END SELECTED WORKS SECTION -->
 
     <!--- START CONTACT ME SECTION --->
     <section class="contact">
-      <h2>Contact Me</h2>
+
     </section>
     <!-- END CONTACT ME SECTIONS-->
   </body>
