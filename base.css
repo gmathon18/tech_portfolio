@@ -38,16 +38,42 @@ html {
 
 /* End Header Section */
 
-.aboutme {
+.about_container {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 400px;
-
+  height: 700px;
+  padding: 30px 30px 30px 30px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.aboutme h2 {
+.about-me-title,
+.column-text h1 {
+  color: #18d26e;
+  font-size: 25px;
+}
+
+.about-me-text {
   display: flex;
-  justify-items: center;
+  align-items: center;
 }
+
+.about-me-text p,
+h1 {
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.about-me-text h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.about-me-text p {
+  font-size: 18px;
+  font-style: italic;
+}
+
 
 .projects {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
