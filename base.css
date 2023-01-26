@@ -221,6 +221,68 @@ h1 {
   text-decoration: none;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-button button {
+  color: #18d26e;
+  background-color: black;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: black 2px solid;
+  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.left-button2 button {
+  color: #18d26e;
+  background-color: black;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: black 2px solid;
+  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.right-button button {
+  color: #18d26e;
+  background-color: black;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: black 2px solid;
+  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+
+.right-button2 button {
+  color: #18d26e;
+  background-color: black;
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: black 2px solid;
+  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+
 /*End Projects Section */
 /*Start Contact Section*/
 .container {
@@ -270,7 +332,7 @@ textarea::placeholder {
   font-size: 20px;
 }
 
-button {
+.big_button {
   display: block;
   margin-top: 15px;
   color: #18d26e;
