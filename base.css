@@ -287,3 +287,17 @@ button {
 }
 
 /*End Contact Section*/
+/*Start Footer Section*/
+.footer {
+  background-color: black;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -40px;
+  height: 2.25rem;
+}
+
+.footer {
+  text-align: center;
+  color: #18d26e;
+  margin-top: 80px;
+}
