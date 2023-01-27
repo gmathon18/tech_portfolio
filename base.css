@@ -2,6 +2,7 @@ html {
   background-image: url("src/green.png");
   color: white;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 /* Header Section */
@@ -73,6 +74,27 @@ html {
 }
 
 /* End Header Section */
+
+/* Start Home Section */
+.home_container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 700px;
+  padding: 30px 30px 30px 30px;
+  margin-left: 450px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 400px;
+
+  background-color: black;
+  border-radius: 30px;
+  font-size: 30px;
+  text-decoration: underline #18d26e;
+  color: white;
+  width: 1000px;
+  text-align: center;
+}
+
+
 
 /* About Me Section */
 
@@ -190,7 +212,12 @@ h1 {
   color: black;
   font-style: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+}
 
+#connect img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #connect p {
@@ -282,6 +309,21 @@ h1 {
   margin-top: 10px;
 }
 
+.left-button button:hover,
+.right-button button:hover,
+.left-button2 button:hover,
+.right-button2 button:hover {
+  color: white;
+}
+
+.left-button button:active,
+.right-button button:active,
+.left-button2 button:active,
+.right-button2 button:active {
+  color: #18d26e;
+  text-decoration: none;
+}
+
 
 /*End Projects Section */
 /*Start Contact Section*/
@@ -336,7 +378,7 @@ textarea::placeholder {
   display: block;
   margin-top: 15px;
   color: #18d26e;
-  background-color: black;
+  background-color: rgb(7, 7, 7);
   outline: #18d26e 2px solid;
   height: 75px;
   width: 200px;
@@ -346,6 +388,10 @@ textarea::placeholder {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 4px;
   box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+}
+
+.big_button:active {
+  color: white;
 }
 
 /*End Contact Section*/
