@@ -8,9 +8,9 @@ html {
 /* Header Section */
 #header {
   background-color: black;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+  margin-top: -0.625rem;
 }
 
 #header h1 {
@@ -42,7 +42,7 @@ html {
   font-family: "Poppins", sans-serif;
   list-style-type: none;
   padding: 0;
-  margin-left: 200px;
+  margin-left: 12.5rem;
   white-space: nowrap;
 }
 
@@ -80,10 +80,10 @@ html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 43.75rem;
   padding: 1.875rem 1.875rem 1.875rem 1.875rem;
-  margin: 60px 60px 60px 60px;
+  margin: 3.75rem 3.75rem 3.75rem 3.75rem;
   background-color: black;
-  border-radius: 30px;
-  font-size: 30px;
+  border-radius: 1.875rem;
+  font-size: 1.875rem;
   text-decoration: underline #18d26e;
   color: white;
 
@@ -93,17 +93,17 @@ html {
 .resume-button button {
   color: black;
   background-color: #18d26e;
-  height: 50px;
-  width: 200px;
-  border-radius: 10px;
-  margin-left: 20px;
-  outline: black 2px solid;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  height: 3.125rem;
+  width: 12.5rem;
+  border-radius: 0.625rem;
+  margin-left: 1.25rem;
+  outline: black 0.125rem solid;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 1px;
-  margin-right: 20px;
-  margin-top: 50px;
-  font-size: 20px;
+  letter-spacing: 0.0625rem;
+  margin-right: 1.25rem;
+  margin-top: 3.125rem;
+  font-size: 1.25rem;
 }
 
 .resume-button button:hover {
@@ -117,22 +117,22 @@ html {
 
 .about_container {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 700px;
-  padding: 30px 30px 30px 30px;
-  margin: 60px 60px 60px 60px;
+  height: 43.75rem;
+  padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+  margin: 3.75rem 3.75rem 3.75rem 3.75rem;
   background-color: black;
-  border-radius: 30px;
+  border-radius: 1.875rem;
 }
 
 
 .about-me-title,
 .column-text h1 {
   color: #18d26e;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .about-me-title h2 {
-  margin: 15px;
+  margin: 0.9375rem;
 }
 
 .about-me-text {
@@ -142,18 +142,18 @@ html {
 
 .about-me-text p,
 h1 {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
 .about-me-text h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
   text-align: center;
 }
 
 .about-me-text p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: italic;
 }
 
@@ -164,12 +164,12 @@ h1 {
 
 .resume_class {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 700px;
-  padding: 30px 30px 30px 30px;
-  margin: 60px 60px 60px 60px;
+  height: 43.75rem;
+  padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+  margin: 3.75rem 3.75rem 3.75rem 3.75rem;
   background-color: black;
-  letter-spacing: 1px;
-  border-radius: 30px;
+  letter-spacing: 0.0625rem;
+  border-radius: 1.875rem;
 }
 
 .resume_container {
@@ -177,13 +177,13 @@ h1 {
 }
 
 .resume_container p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .resume_class h1 {
   color: #18d26e;
-  font-size: 35px;
+  font-size: 2.1875rem;
   text-align: left;
   margin: 0;
 }
@@ -194,52 +194,52 @@ h1 {
 }
 
 .education {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 /* End Resume Section */
 /*Start Projects Section*/
 .projects {
   text-align: center;
-  height: 800px;
+  height: 50rem;
   background-color: black;
-  margin: 60px 60px 60px 60px;
-  border-radius: 30px;
+  margin: 3.75rem 3.75rem 3.75rem 3.75rem;
+  border-radius: 1.875rem;
 }
 
 .projects h1 {
   text-align: center;
   color: #18d26e;
-  font-size: 35px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  letter-spacing: 2px;
+  font-size: 2.1875rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  letter-spacing: 0.125rem;
 }
 
 .selected-works {
   display: flex;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 #connect {
-  height: 600px;
-  width: 270px;
+  height: 37.5rem;
+  width: 16.875rem;
   margin: auto;
   background-color: white;
   color: black;
   font-style: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 #connect img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
 }
 
 #connect p {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 #connect a:link {
@@ -273,57 +273,57 @@ h1 {
 .left-button button {
   color: #18d26e;
   background-color: black;
-  height: 40px;
-  width: 90px;
-  border-radius: 10px;
-  margin-left: 20px;
-  outline: black 2px solid;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  height: 2.5rem;
+  width: 5.625rem;
+  border-radius: 0.625rem;
+  margin-left: 1.25rem;
+  outline: black 0.125rem solid;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 .left-button2 button {
   color: #18d26e;
   background-color: black;
-  height: 40px;
-  width: 90px;
-  border-radius: 10px;
-  margin-left: 20px;
-  outline: black 2px solid;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  height: 2.5rem;
+  width: 5.625rem;
+  border-radius: 0.625rem;
+  margin-left: 1.25rem;
+  outline: black 0.125rem solid;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 1px;
-  margin-top: 10px;
+  letter-spacing: 0.0625rem;
+  margin-top: 0.625rem;
 }
 
 .right-button button {
   color: #18d26e;
   background-color: black;
-  height: 40px;
-  width: 90px;
-  border-radius: 10px;
-  margin-left: 20px;
-  outline: black 2px solid;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  height: 2.5rem;
+  width: 5.625rem;
+  border-radius: 0.625rem;
+  margin-left: 1.25rem;
+  outline: black 0.125rem solid;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 1px;
-  margin-right: 20px;
+  letter-spacing: 0.0625rem;
+  margin-right: 1.25rem;
 }
 
 .right-button2 button {
   color: #18d26e;
   background-color: black;
-  height: 40px;
-  width: 90px;
-  border-radius: 10px;
-  margin-left: 20px;
-  outline: black 2px solid;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  height: 2.5rem;
+  width: 5.625rem;
+  border-radius: 0.625rem;
+  margin-left: 1.25rem;
+  outline: black 0.125rem solid;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 1px;
-  margin-right: 20px;
-  margin-top: 10px;
+  letter-spacing: 0.0625rem;
+  margin-right: 1.25rem;
+  margin-top: 0.625rem;
 }
 
 .left-button button:hover,
@@ -346,65 +346,65 @@ h1 {
 /*Start Contact Section*/
 .container {
   background-color: black;
-  margin: 60px 60px;
-  height: 800px;
-  border-radius: 30px;
+  margin: 3.75rem 3.75rem;
+  height: 50rem;
+  border-radius: 1.875rem;
 }
 
 .container h1 {
   text-align: center;
-  padding-top: 170px;
+  padding-top: 10.625rem;
   color: #18d26e;
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 .contact-box {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .input-row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .input-group input {
-  width: 325px;
-  height: 50px;
-  font-size: 20px;
+  width: 20.3125rem;
+  height: 3.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 }
 
 .input-group2 input {
-  width: 660px;
-  height: 50px;
-  font-size: 20px;
+  width: 41.25rem;
+  height: 3.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 
 }
 
 textarea::placeholder {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .big_button {
   display: block;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   background-color: #18d26e;
   color: rgb(7, 7, 7);
-  outline: #18d26e 2px solid;
-  height: 75px;
-  width: 200px;
+  outline: #18d26e 0.125rem solid;
+  height: 4.6875rem;
+  width: 12.5rem;
   margin: 5% 38%;
-  border-radius: 30px;
-  font-size: 18px;
+  border-radius: 1.875rem;
+  font-size: 1.125rem;
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 4px;
-  box-shadow: 0px 5px 15px 0px rgba(221, 210, 210, 0.823);
+  letter-spacing: 0.25rem;
+  box-shadow: 0rem 0.3125rem 0.9375rem 0rem rgba(221, 210, 210, 0.823);
 }
 
 .big_button:active,
@@ -416,14 +416,14 @@ textarea::placeholder {
 /*Start Footer Section*/
 .footer {
   background-color: black;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: -40px;
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+  margin-bottom: -0.625rem;
   height: 2.25rem;
 }
 
 .footer {
   text-align: center;
   color: #18d26e;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
