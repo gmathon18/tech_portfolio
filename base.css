@@ -1,8 +1,13 @@
 html {
-  background-image: url("src/green.png");
+  background-image: url("green.png");
   color: white;
   font-size: 16px;
   scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0rem;
 }
 
 /* Header Section */
@@ -111,8 +116,6 @@ html {
 }
 
 
-
-
 /* About Me Section */
 
 .about_container {
@@ -138,6 +141,11 @@ html {
 .about-me-text {
   display: flex;
   align-items: center;
+}
+
+.about-me-text img {
+  height: 20.625rem;
+  width: 18.75rem;
 }
 
 .about-me-text p,
@@ -235,6 +243,8 @@ h1 {
 #connect img {
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
+  height: 21.875rem;
+  width: 16.875rem;
 }
 
 #connect p {
@@ -387,6 +397,10 @@ h1 {
 
 }
 
+.contact-box textarea {
+  width: 50em;
+}
+
 textarea::placeholder {
   font-size: 1.25rem;
 }
@@ -426,4 +440,155 @@ textarea::placeholder {
   text-align: center;
   color: #18d26e;
   margin-top: 5rem;
+}
+
+/*End Footer Section*/
+
+/*Iphone Media Queries*/
+@media screen and (max-width:600px) {
+  html {
+    font-size: 8px;
+  }
+
+  .nav_container {
+    margin-top: -0.3125rem;
+
+    margin-right: -1rem;
+    width: 62%;
+  }
+
+  body {
+    margin: 0rem;
+  }
+
+  #nav_bar {
+    margin-left: 5.75rem;
+    margin-right: 18.75rem;
+  }
+
+  .about_container {
+    font-style: normal;
+    height: 63.75rem;
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+    margin: 3.75rem 3.75rem 3.75rem 3.75rem;
+
+  }
+
+  .about-me-title,
+  .column-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .about-me-text p {
+    font-size: 1.5rem;
+  }
+
+  .resume_class {
+    height: 70rem;
+  }
+
+  .resume_container p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .resume_container h1 {
+    font-size: 1.75rem;
+  }
+
+  .resume_container h3 {
+    font-size: 1.5rem;
+  }
+
+  .resume-button button {
+    font-style: bold;
+    height: 4.125rem;
+    width: 13.0rem;
+    outline: none;
+    margin-right: 1.25rem;
+    margin-top: 3.125rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+  }
+
+  /* Projects Section */
+  .projects {
+    height: 178rem;
+  }
+
+  .projects h1 {
+    font-size: 3rem;
+  }
+
+  .selected-works {
+    display: block;
+  }
+
+  #connect {
+    height: 52rem;
+    margin-bottom: 4rem;
+    width: 30rem;
+    font-size: 1.2rem;
+  }
+
+  #connect img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .left-button button,
+  .right-button button,
+  .left-button2 button,
+  .right-button2 button {
+    height: 5rem;
+    width: 7rem;
+    outline: none;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-top: 0.625rem;
+    background-color: #18d26e;
+    color: rgb(7, 7, 7);
+    outline: none;
+    box-shadow: 0rem 0.3125rem 0.9375rem 0rem black;
+  }
+
+
+  /* End Project Section */
+
+  /*Contact Section*/
+  .contact-box textarea {
+    width: 28em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .input-group input {
+
+    margin-right: 1rem;
+    width: 19rem;
+  }
+
+  input[placeholder="Name"] {
+    margin-left: 3rem;
+  }
+
+  .input-group2 input {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    width: 39rem;
+  }
+
+  .container {
+    height: 60rem;
+  }
+
+  .big_button {
+    height: 6rem;
+    width: 20rem;
+    margin: 5% 30%;
+    outline: none;
+    font-size: 1.5rem;
+  }
+
+  /* End Contact Section */
 }
