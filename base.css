@@ -171,7 +171,7 @@ h1 {
 
 .resume_class {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 43.75rem;
+  height: 54.75rem;
   padding: 1.875rem 1.875rem 1.875rem 1.875rem;
   margin: 3.75rem 3.75rem 3.75rem 3.75rem;
   background-color: black;
@@ -202,6 +202,40 @@ h1 {
 
 .education {
   margin-right: 1.875rem;
+  width: 55%;
+}
+
+.resume_class ul {
+  margin-bottom: 12rem;
+}
+
+.resume_class ul li {
+  width: 33%;
+  float: left;
+  font-size: 1.25rem;
+  letter-spacing: 0.20rem;
+  line-height: 1.2;
+}
+
+.expansion {
+  display: flex;
+}
+
+.card {
+  padding-right: 10rem;
+}
+
+.card table {
+  font-size: 1.5rem;
+}
+
+.card td {
+  padding-right: 2rem;
+  line-height: 1.5;
+}
+
+.special_card {
+  display: flex;
 }
 
 /* End Resume Section */
@@ -701,7 +735,7 @@ textarea::placeholder {
 
   /*Contact Section*/
   .contact-box textarea {
-    width: 28em;
+    width: 56em;
     margin-left: 3rem;
     margin-right: 3rem;
   }
