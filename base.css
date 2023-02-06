@@ -171,7 +171,7 @@ h1 {
 
 .resume_class {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 54.75rem;
+  height: 60.75rem;
   padding: 1.875rem 1.875rem 1.875rem 1.875rem;
   margin: 3.75rem 3.75rem 3.75rem 3.75rem;
   background-color: black;
@@ -227,11 +227,13 @@ h1 {
 
 .card table {
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .card td {
   padding-right: 2rem;
   line-height: 1.5;
+  padding-left: 2rem;
 }
 
 .special_card {
@@ -427,7 +429,7 @@ h1 {
 }
 
 .contact-box textarea {
-  width: 50em;
+  width: 41rem;
   margin: auto;
 }
 
@@ -662,7 +664,7 @@ textarea::placeholder {
   }
 
   .resume_class {
-    height: 70rem;
+    height: 100rem;
   }
 
   .resume_container p {
@@ -687,6 +689,14 @@ textarea::placeholder {
     margin-top: 3.125rem;
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
+  }
+
+  .education li {
+    margin-right: 2rem;
+  }
+
+  .education ul {
+    margin-left: -2rem;
   }
 
   /* Projects Section */
@@ -735,7 +745,7 @@ textarea::placeholder {
 
   /*Contact Section*/
   .contact-box textarea {
-    width: 56em;
+    width: 38rem;
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -767,6 +777,9 @@ textarea::placeholder {
     outline: none;
     font-size: 1.5rem;
   }
+
+
+
 
   /* End Contact Section */
 }
